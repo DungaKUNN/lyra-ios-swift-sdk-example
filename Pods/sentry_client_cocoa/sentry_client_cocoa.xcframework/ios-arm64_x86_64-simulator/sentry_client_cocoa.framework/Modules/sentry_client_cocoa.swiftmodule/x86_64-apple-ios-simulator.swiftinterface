@@ -1,0 +1,22 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name sentry_client_cocoa
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import JavaScriptCore
+import Sentry
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers public class LyraSentrySDK : Sentry.SentrySDK {
+  public static let testEnvironment: Swift.String
+  @objc override dynamic public class func start(options: Sentry.Options)
+  @available(*, unavailable, message: "You cannot use this method")
+  @objc override dynamic public class func start(configureOptions: @escaping (Sentry.Options) -> Swift.Void)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class LyraSentryClient : Sentry.SentryClient {
+  @objc override dynamic public init?(options: Sentry.Options)
+  @objc deinit
+}

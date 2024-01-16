@@ -1,0 +1,6 @@
+framework module LyraCardsRecognizer {
+  umbrella header "LyraCardsRecognizer.h"
+
+  export *
+  module * { export * }
+}

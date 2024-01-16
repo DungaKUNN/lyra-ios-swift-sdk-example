@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-demoPayment/Pods-demoPayment-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Material/Material.framework
+${BUILT_PRODUCTS_DIR}/Motion/Motion.framework
+${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework
+${BUILT_PRODUCTS_DIR}/SentryPrivate/SentryPrivate.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/LyraCardsRecognizer/LyraCardsRecognizer.framework/LyraCardsRecognizer
+${PODS_XCFRAMEWORKS_BUILD_DIR}/LyraPaymentSDK/LyraPaymentSDK.framework/LyraPaymentSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/sentry_client_cocoa/sentry_client_cocoa.framework/sentry_client_cocoa

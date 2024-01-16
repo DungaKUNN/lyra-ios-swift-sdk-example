@@ -1,0 +1,4 @@
+framework module sentry_client_cocoa {
+  header "sentry_client_cocoa-Swift.h"
+  requires objc
+}

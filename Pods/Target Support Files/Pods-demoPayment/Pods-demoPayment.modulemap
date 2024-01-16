@@ -1,0 +1,6 @@
+framework module Pods_demoPayment {
+  umbrella header "Pods-demoPayment-umbrella.h"
+
+  export *
+  module * { export * }
+}

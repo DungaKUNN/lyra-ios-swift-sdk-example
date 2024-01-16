@@ -1,0 +1,1261 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "JavaScriptCore",
+        "printedName": "JavaScriptCore",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa"
+      },
+      {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LyraSentrySDK",
+        "printedName": "LyraSentrySDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "testEnvironment",
+            "printedName": "testEnvironment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19sentry_client_cocoa13LyraSentrySDKC15testEnvironmentSSvpZ",
+            "mangledName": "$s19sentry_client_cocoa13LyraSentrySDKC15testEnvironmentSSvpZ",
+            "moduleName": "sentry_client_cocoa",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19sentry_client_cocoa13LyraSentrySDKC15testEnvironmentSSvgZ",
+                "mangledName": "$s19sentry_client_cocoa13LyraSentrySDKC15testEnvironmentSSvgZ",
+                "moduleName": "sentry_client_cocoa",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "Sentry.Options",
+                "usr": "c:objc(cs)SentryOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@sentry_client_cocoa@objc(cs)LyraSentrySDK(cm)startWithOptions:",
+            "mangledName": "$s19sentry_client_cocoa13LyraSentrySDKC5start7optionsySo0E7OptionsC_tFZ",
+            "moduleName": "sentry_client_cocoa",
+            "static": true,
+            "overriding": true,
+            "objc_name": "startWithOptions:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sentry_client_cocoa@objc(cs)LyraSentrySDK",
+        "mangledName": "$s19sentry_client_cocoa13LyraSentrySDKC",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SentrySDK",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Sentry.SentrySDK",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "sentry_client_cocoa"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LyraSentryClient",
+        "printedName": "LyraSentryClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "sentry_client_cocoa.LyraSentryClient?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LyraSentryClient",
+                    "printedName": "sentry_client_cocoa.LyraSentryClient",
+                    "usr": "c:@M@sentry_client_cocoa@objc(cs)LyraSentryClient"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Options",
+                "printedName": "Sentry.Options",
+                "usr": "c:objc(cs)SentryOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@sentry_client_cocoa@objc(cs)LyraSentryClient(im)initWithOptions:",
+            "mangledName": "$s19sentry_client_cocoa16LyraSentryClientC7optionsACSgSo0E7OptionsC_tcfc",
+            "moduleName": "sentry_client_cocoa",
+            "overriding": true,
+            "objc_name": "initWithOptions:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@sentry_client_cocoa@objc(cs)LyraSentryClient",
+        "mangledName": "$s19sentry_client_cocoa16LyraSentryClientC",
+        "moduleName": "sentry_client_cocoa",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SentryClient",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Sentry.SentryClient",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 13,
+      "value": "\"Application\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 9,
+      "value": "\"AppName\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 11,
+      "value": "\"Bundle ID\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 9,
+      "value": "\"Version\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 11,
+      "value": "\"App Build\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 21,
+      "value": "\"CFBundleDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 656,
+      "length": 20,
+      "value": "\"CFBundleIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 946,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/AppInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 990,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 3787,
+      "length": 16,
+      "value": "\"piiRuleService\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 3882,
+      "length": 12,
+      "value": "\"applyRules\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 4307,
+      "length": 35,
+      "value": "\"JS exception in lra-pii library: \""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 4362,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 4467,
+      "length": 14,
+      "value": "\"lyra-pii.umd\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 4491,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 4694,
+      "length": 9,
+      "value": "\"LyraPii\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "StringLiteral",
+      "offset": 4730,
+      "length": 7,
+      "value": "\"build\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/pii\/LyraPii.swift",
+      "kind": "Array",
+      "offset": 4760,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "IntegerLiteral",
+      "offset": 508,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 14,
+      "value": "\"iPod Touch 5\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 14,
+      "value": "\"iPod Touch 6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 863,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 937,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 975,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1036,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1086,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1124,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1186,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1236,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1260,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1310,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1464,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1494,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1544,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1582,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1619,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1656,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1722,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1736,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1772,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1846,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1875,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1889,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1925,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2038,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2074,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2103,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2153,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2178,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2189,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2200,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2211,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2250,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2300,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2333,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2344,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2372,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2405,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2468,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2479,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2566,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2594,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2619,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2630,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2641,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2669,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2696,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2707,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2718,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2746,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2773,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2784,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2823,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2850,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2861,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2883,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2900,
+      "length": 10,
+      "value": "\"iPad Pro\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2924,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2932,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 2974,
+      "length": 11,
+      "value": "\"Simulator\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 3105,
+      "length": 8,
+      "value": "\"Device\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 3143,
+      "length": 7,
+      "value": "\"Model\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/Util\/UIDevice+ModelName.swift",
+      "kind": "StringLiteral",
+      "offset": 3177,
+      "length": 4,
+      "value": "\"OS\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/LyraSentrySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 275,
+      "length": 6,
+      "value": "\"TEST\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/LyraSentryClient.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 6,
+      "value": "\"TEST\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/LyraSentryClient.swift",
+      "kind": "StringLiteral",
+      "offset": 925,
+      "length": 66,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/LyraSentryClient.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/magelasantana\/Desktop\/sentry-client-cocoa_With_Pods_dependency\/sentry-client-cocoa\/LyraSentryClient.swift",
+      "kind": "StringLiteral",
+      "offset": 990,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
